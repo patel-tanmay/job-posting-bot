@@ -1,0 +1,42 @@
+app:
+  state_db_path: ".jobbot/state.db"
+  telegram_message_title: "Morning job digest"
+
+profiles:
+  - name: "default"
+    keywords:
+      - "Data Scientist"
+      - "Machine Learning Engineer"
+    locations:
+      - "Boston, MA"
+      - "Remote"
+    sources:
+      linkedin:
+        enabled: true
+        freshness_hours: 2
+        max_results: 20
+    title_exclude_terms:
+      - "director"
+      - "senior"
+      - "manager"
+      - "ii"
+      - "iii"
+      - "sr."
+      - "lead"
+      - "principal"
+      - "staff"
+      - "intern"
+      - "internship"
+      - "ad"
+      - "associate director"
+      - "software"
+      - "ux"
+      - "ui"
+      - "qa"
+      - "business analyst"
+      - "business intelligence"
+      - "research analyst"
+      - "canada"
+    remote_preference: true
+    min_score: 0.0
+

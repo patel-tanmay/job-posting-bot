@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.jobbot/
+.browser-profile/
+.env
+config.yaml
+*.db
+*.sqlite3
+*.log
+.DS_Store
