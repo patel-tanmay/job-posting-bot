@@ -5,8 +5,9 @@ __pycache__/
 .jobbot/
 .browser-profile/
 .env
-config.yaml
 *.db
 *.sqlite3
 *.log
 .DS_Store
+
+src/jobbot.egg-info/

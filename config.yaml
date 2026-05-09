@@ -1,0 +1,60 @@
+app:
+  state_db_path: ".jobbot/state.db"
+  telegram_message_title: "Morning job digest"
+  browser_max_pages: 3
+
+profiles:
+  - name: "default"
+    keywords:
+      - "Data Scientist"
+    locations:
+      - "Boston, MA"
+      - "New York, NY"
+      - "San Francisco, CA"
+      - "Remote"
+    sources:
+      linkedin:
+        enabled: true
+        freshness_hours: 2
+        max_results: 20
+    title_exclude_terms:
+      - "director"
+      - "Director"
+      - "senior"
+      - "manager"
+      - "II"
+      - "III"
+      - "sr."
+      - "lead"
+      - "principal"
+      - "staff"
+      - "intern"
+      - "internship"
+      - "AD"
+      - "associate"
+      - "Associate Director"
+      - "Software"
+      - "Product Analyst"
+      - "Fellow, Emerging Technology Trends"
+      - "Fellowship"
+      - "Fellow"
+      - "UX"
+      - "UI"
+      - "Data Engineer"
+      - "QA Engineer"
+      - "QA Analyst"
+      - "Data Architect"
+      - "Decision Science Analyst"
+      - "Associate Researcher"
+      - "Research Analyst"
+      - "Data Modeler"
+      - "Data Visualization Analyst"
+      - "Business Analyst"
+      - "Business Intelligence"
+      - "Research Engineer"
+      - "Canada"
+      - "Systems Modeler, Journeyman - Secret"
+      - "Digital Engineer"
+      - "API"
+
+    remote_preference: true
