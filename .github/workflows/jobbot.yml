@@ -19,6 +19,7 @@ jobs:
       JOBBOT_TELEGRAM_CHAT_ID: ${{ secrets.JOBBOT_TELEGRAM_CHAT_ID }}
       JOBBOT_LINKEDIN_EMAIL: ${{ secrets.JOBBOT_LINKEDIN_EMAIL }}
       JOBBOT_LINKEDIN_PASSWORD: ${{ secrets.JOBBOT_LINKEDIN_PASSWORD }}
+      JOBBOT_BROWSER_HEADLESS: "true"
 
     steps:
       - name: Checkout
